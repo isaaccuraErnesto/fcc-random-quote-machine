@@ -14,7 +14,7 @@ function App() {
   //Fetching Quote Data from API
 
   const fetchRandomQuote = async () => {
-    const response = await fetch('http://api.quotable.io/random?minLength=100&maxLength=120')
+    const response = await fetch('https://api.quotable.io/random?minLength=100&maxLength=120')
     const data = await response.json()
     setQuote(data);
   }
