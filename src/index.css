@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Indie Flower', sans-serif;
+}
+
+#text {
+  border: 0;
+}
+
+#text {
+  font-size: 35px;
+}
+#author {
+  font-size: 25px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: fit-content;
+  text-align: center;
+  background: #fae8e3;
+  color: #36270a;
+  border-radius: 8px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+#new-quote {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+  background: #36270a;
+  color: #fae8e3;
+  border-radius: 8px;
+  border: none;
+  display: block;
+  margin: 0 2.5px;
+}
+
+#tweet-quote {
+  display: block;
+  width: fit-content;
+  margin: 0 2.5px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: auto;
+}
+
+#quote-and-author {
+  margin: 0 auto 40px auto;
+}
+
+#quote-box {
+  width: 75vw;
+  max-width: 600px;
+  background: rgba(252, 219, 211, 0.85);
+  padding: 25px 10px 25px 10px;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: -1px 3px 13px 3px rgba(54, 39, 10, 0.5);
+}
+
+#root {
+  background-color: #ff7070;
+  height: 100vh;
+  padding-top: 20vh;
+}
+
+#footer {
+  margin: 20px;
+  font-size: 15px;
+}
