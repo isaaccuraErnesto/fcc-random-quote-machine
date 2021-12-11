@@ -29,7 +29,8 @@ body {
   border-radius: 8px;
 }
 
-.fa:hover {
+.fa:hover,
+#new-quote:hover {
   opacity: 0.7;
 }
 
