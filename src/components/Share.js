@@ -22,7 +22,7 @@ Share.propTypes = {
     href: PropTypes.string,
     className: PropTypes.string,
     alt: PropTypes.string,
-    quote: PropTypes.array
+    quote: PropTypes.object
 }
 
 export default Share

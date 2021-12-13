@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 
 function App() {
-  const [quote, setQuote] = useState([])
+  const [quote, setQuote] = useState({})
 
   useEffect(() => {
     fetchRandomQuote()
@@ -14,9 +14,15 @@ function App() {
   //Fetching Quote Data from API
 
   const fetchRandomQuote = async () => {
-    const response = await fetch('https://api.quotable.io/random?minLength=100&maxLength=120')
-    const data = await response.json()
-    setQuote(data);
+    try {
+      const response = await fetch('https://api.quotable.io/random?minLength=100&maxLength=120')
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`)
+      const data = await response.json()
+      setQuote(data);
+    } catch (err) {
+        console.log(err);
+        setQuote({content: 'Oops! Something went wrong.', author: 'Error Maker'});
+      }
   }
 
   //Rendering
