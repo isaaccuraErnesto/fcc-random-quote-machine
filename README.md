@@ -27,13 +27,13 @@ The app was built using a combination of the following languages/libraries/frame
 
 ### PC View
 
-![Main PC View](https://i.imgur.com/JmABfJi.jpg?1)
-![PC Tweet Sample](https://i.imgur.com/O0lUzhe.jpg?1)
+![Main PC View](https://i.imgur.com/JmABfJi.jpg?1 "Main PC View")
+![PC Tweet Sample](https://i.imgur.com/O0lUzhe.jpg?1 "PC Tweet Sample")
 
 ### Mobile View
 
-![Main Mobile View](https://i.imgur.com/vpgtdiE.png?2)
-![Mobile Tweet Sample](https://i.imgur.com/GA33dWg.png?1)
+![Main Mobile View](https://i.imgur.com/vpgtdiE.png?2 "Main Mobile View")
+![Mobile Tweet Sample](https://i.imgur.com/GA33dWg.png?1 "Mobile Tweet Sample")
 
 ## Task Description
 
