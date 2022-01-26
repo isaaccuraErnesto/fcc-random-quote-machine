@@ -25,15 +25,15 @@ The app was built using a combination of the following languages/libraries/frame
 
 ## Screenshots
 
-### Desktop/Laptop View
+### PC View
 
-![alt text](image.jpg)
-![alt text](image.jpg)
+![Main PC View](https://i.imgur.com/JmABfJiundefined.jpg)
+![PC Tweet Sample](https://i.imgur.com/O0lUzheundefined.jpg)
 
 ### Mobile View
 
-![alt text](image.jpg)
-![alt text](image.jpg)
+![Main Mobile View](https://i.imgur.com/vpgtdiEundefined.png)
+![Mobile Tweet Sample](https://i.imgur.com/GA33dWgundefined.png)
 
 ## Task Description
 
