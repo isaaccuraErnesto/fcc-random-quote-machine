@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+#Random Quote Machine
+by ernestoIsaaccura
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**[LIVE VERSION](https://isaaccuraernesto.github.io/fcc-random-quote-machine/)**
 
-## Available Scripts
+##About
 
-In the project directory, you can run:
+This Random Quote Machine was my first project for the **FreeCodeCamp** Front End Development Libraries Certification.
 
-### `npm start`
+It features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- A 100% from scratch React build
+- A fully responsive design
+- A sleek and modern design
+- API fetching
+- Prepopulation of tweets on sharing
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The app was built using a combination of the following languages/libraries/frameworks:
 
-### `npm test`
+- React
+- JavaScript
+- CSS
+- HTML
+- Bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##Screenshots
 
-### `npm run build`
+###Desktop/Laptop View
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![alt text](image.jpg)
+![alt text](image.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###Mobile View
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![alt text](image.jpg)
+![alt text](image.jpg)
 
-### `npm run eject`
+##Task Description
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Objective**: Build a CodePen.io app that is functionally similar to this: [https://codepen.io/freeCodeCamp/full/qRZeGZ](https://codepen.io/freeCodeCamp/full/qRZeGZ).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+###Requirements
 
-## Learn More
+- [x] User Story #1: I can see a wrapper element with a corresponding id="quote-box".
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] User Story #2: Within #quote-box, I can see an element with a corresponding id="text".
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [x] User Story #3: Within #quote-box, I can see an element with a corresponding id="author".
 
-### Code Splitting
+- [x] User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote".
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [x] User Story #5: Within #quote-box, I can see a clickable a element with a corresponding id="tweet-quote".
 
-### Analyzing the Bundle Size
+- [x] User Story #6: On first load, my quote machine displays a random quote in the element with id="text".
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [x] User Story #7: On first load, my quote machine displays the random quote's author in the element with id="author".
 
-### Making a Progressive Web App
+- [x] User Story #8: When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [x] User Story #9: My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.
 
-### Advanced Configuration
+- [x] User Story #10: I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [x] User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
