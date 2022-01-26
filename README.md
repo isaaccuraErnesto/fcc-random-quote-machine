@@ -1,9 +1,9 @@
-#Random Quote Machine
+# Random Quote Machine
 by ernestoIsaaccura
 
 **[LIVE VERSION](https://isaaccuraernesto.github.io/fcc-random-quote-machine/)**
 
-##About
+## About
 
 This Random Quote Machine was my first project for the **FreeCodeCamp** Front End Development Libraries Certification.
 
@@ -23,19 +23,19 @@ The app was built using a combination of the following languages/libraries/frame
 - HTML
 - Bootstrap
 
-##Screenshots
+## Screenshots
 
-###Desktop/Laptop View
-
-![alt text](image.jpg)
-![alt text](image.jpg)
-
-###Mobile View
+### Desktop/Laptop View
 
 ![alt text](image.jpg)
 ![alt text](image.jpg)
 
-##Task Description
+### Mobile View
+
+![alt text](image.jpg)
+![alt text](image.jpg)
+
+## Task Description
 
 **Objective**: Build a CodePen.io app that is functionally similar to this: [https://codepen.io/freeCodeCamp/full/qRZeGZ](https://codepen.io/freeCodeCamp/full/qRZeGZ).
 
@@ -43,7 +43,7 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
-###Requirements
+### Requirements
 
 - [x] User Story #1: I can see a wrapper element with a corresponding id="quote-box".
 
